@@ -66,7 +66,7 @@ const EventSection = () => (
         title="Akad Nikah"
         date="Senin, 15 Juni 2026"
         time="08:00 - 10:00 WIB"
-        location="Masjid Al-Ikhlas, Jakarta"
+        location="Masjid Al-Amin, Bintara 3, bekasi"
         delay={0}
       />
       <FloralDivider />

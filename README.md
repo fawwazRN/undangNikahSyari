@@ -1,73 +1,93 @@
-# Welcome to your Lovable project
+# 💍 Undangan Nikah Syari
 
-## Project info
+Website undangan pernikahan berbasis web dengan konsep modern, clean, dan syari.  
+Dirancang untuk memberikan pengalaman yang sederhana, elegan, dan mudah diakses di berbagai perangkat.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🌐 Live Demo:  
+https://undangannikahsyari.netlify.app/
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Fitur Utama
 
-**Use Lovable**
+- 📱 Responsive design (mobile-friendly)
+- 🎨 Tampilan clean & minimalis
+- 📖 Informasi lengkap acara (akad & resepsi)
+- 🗺️ Integrasi lokasi Google Maps
+- ⏳ Countdown menuju hari pernikahan
+- 💌 Section doa & ucapan
+- ⚡ Fast loading dan ringan
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Teknologi yang Digunakan
 
-**Use your preferred IDE**
+- HTML5
+- CSS3
+- JavaScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+_(Tambahkan framework/library jika ada seperti React, Tailwind, Bootstrap, dll.)_
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 📂 Struktur Project
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```
+├── index.html
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+└── README.md
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Cara Menjalankan Project Secara Lokal
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Jika Static Website
+
+1. Clone repository:
+
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   ```
+
+2. Masuk ke folder project:
+
+   ```bash
+   cd nama-repo
+   ```
+
+3. Buka file `index.html` di browser.
+
+---
+
+### Jika Menggunakan React (opsional)
+
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📦 Deployment
 
-**Use GitHub Codespaces**
+Project ini dideploy menggunakan **Netlify**.  
+Setiap perubahan pada repository dapat langsung terupdate melalui proses deploy otomatis.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🎯 Tujuan Project
 
-This project is built with:
+- Memudahkan penyebaran undangan secara digital
+- Mengurangi penggunaan kertas (paperless)
+- Memberikan kesan profesional dan elegan
+- Sebagai portfolio pengembangan web
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📜 License
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Project ini bebas digunakan untuk kebutuhan pribadi maupun referensi pembelajaran.

@@ -43,7 +43,7 @@ const EventCard = ({
 );
 
 const saveToGoogleCalendar = () => {
-  const url = `https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NmwzNTM5djE2NXNxc280aW40Z3J2NTV1bGogY19hOGQzOWNlNDA4N2NkNjExYWZkMzJkMmYyY2Y1NDdhNDUxMmM4NmRmMWRlNGNhM2NlNDBhZjdmZmI4YTNhYzUxQGc&tmsrc=c_a8d39ce4087cd611afd32d2f2cf547a4512c86df1de4ca3ce40af7ffb8a3ac51%40group.calendar.google.com`;
+  const url = `https://calendar.app.google/ekUknnVZ4LjmLqQB7`;
   window.open(url, "_blank");
 };
 

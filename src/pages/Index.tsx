@@ -28,7 +28,7 @@ const Index = () => {
   return (
     <div className="flex justify-center bg-botanical-dark min-h-screen">
       {/* Mobile container — always phone-sized */}
-      <div className="w-full max-w-[430px] min-h-screen bg-background relative overflow-hidden shadow-2xl">
+      <div className="relative bg-background shadow-2xl w-full max-w-[430px] min-h-screen overflow-hidden">
         <AnimatePresence mode="wait">
           {!opened ? (
             <EnvelopeCover key="envelope" onOpen={handleOpen} />
@@ -38,14 +38,16 @@ const Index = () => {
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="relative"
-            >
+              className="relative">
               {/* Side leaf decorations */}
-              <LeafDecoration className="fixed left-0 top-0 w-12 h-auto opacity-10 pointer-events-none" />
-              <LeafDecoration className="fixed right-0 top-0 w-12 h-auto opacity-10 pointer-events-none" flip />
+              <LeafDecoration className="top-0 left-0 fixed opacity-10 w-12 h-auto pointer-events-none" />
+              <LeafDecoration
+                className="top-0 right-0 fixed opacity-10 w-12 h-auto pointer-events-none"
+                flip
+              />
 
-              <BismillahSection />
               <CoupleSection />
+              <BismillahSection />
               <EventSection />
               <CountdownSection />
               <RSVPSection onSubmitted={handleRSVPSubmitted} />
